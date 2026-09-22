@@ -1,0 +1,18 @@
+{
+  "name": "central-vault",
+  "version": "1.0.0",
+  "description": "Coffre-fort chiffr\u00e9 z\u00e9ro-connaissance (Argon2id + XChaCha20-Poly1305)",
+  "scripts": {
+    "start": "node vault.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "libsodium-wrappers-sumo": "^0.8.4"
+  },
+  "bin": {
+    "vault": "./vault.mjs"
+  }
+}
